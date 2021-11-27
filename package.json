@@ -1,0 +1,19 @@
+{
+  "name": "astro-svelte-starter",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "format": "prettier --write --plugin-search-dir=. ."
+  },
+  "devDependencies": {
+    "@astrojs/renderer-svelte": "^0.2.1",
+    "astro": "^0.21.4",
+    "prettier": "^2.5.0",
+    "prettier-plugin-astro": "^0.0.11",
+    "prettier-plugin-svelte": "^2.5.0"
+  }
+}
